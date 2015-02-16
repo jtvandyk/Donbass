@@ -1,0 +1,251 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 1,
+        "Date": "12/2/15",
+        "Event": "Shelling",
+        "Weapon": "NA",
+        "Casualties": 0,
+        "Killed": 0,
+        "Wounded": 0,
+        "Perpetrator": "NA",
+        "Civilian Casualties": "No",
+        "Russian Army Present": "No",
+        "Witness": "Investigated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.80567169189453,
+          47.98693453667708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 2,
+        "Date": "11/2/15",
+        "Event": "Shelling",
+        "Weapon": "Mortar",
+        "Casualties": 0,
+        "Killed": 0,
+        "Wounded": 0,
+        "Perpetrator": "NA",
+        "Civilian Casualties": "No",
+        "Russian Army Present": "No",
+        "Witness": "Investigated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.840003967285156,
+          48.03746268708935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 3,
+        "Date": "13/2/15",
+        "Event": "Shelling",
+        "Weapon": "Artillery",
+        "Casualties": 0,
+        "Killed": 0,
+        "Wounded": 0,
+        "Perpetrator": "UA",
+        "Civilian Casualties": "NA",
+        "Russian Army Present": "NA",
+        "Witness": "Heard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.80635833740234,
+          47.31473724257252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4,
+        "Date": "13/2/15",
+        "Event": "Shelling",
+        "Weapon": "Mortar",
+        "Casualties": 0,
+        "Killed": 0,
+        "Wounded": 0,
+        "Perpetrator": "UA",
+        "Civilian Casualties": "NA",
+        "Russian Army Present": "NA",
+        "Witness": "Heard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.793312072753906,
+          47.31147846374411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 5,
+        "Date": "13/2/15",
+        "Event": "Shelling",
+        "Weapon": "Artillery",
+        "Casualties": 0,
+        "Killed": 0,
+        "Wounded": 0,
+        "Perpetrator": "UA",
+        "Civilian Casualties": "NA",
+        "Russian Army Present": "NA",
+        "Witness": "Heard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.80464172363281,
+          47.28901070037739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 6,
+        "Date": "13/2/15",
+        "Event": "Attack",
+        "Weapon": "SAM",
+        "Casualties": 0,
+        "Killed": 0,
+        "Wounded": 0,
+        "Perpetrator": "UA",
+        "Civilian Casualties": "NA",
+        "Russian Army Present": "NA",
+        "Witness": "Witnessed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.62886047363281,
+          48.70886131599523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 7,
+        "Date": "13/2/15",
+        "Event": "Attack",
+        "Weapon": "SAM",
+        "Casualties": 0,
+        "Killed": 0,
+        "Wounded": 0,
+        "Perpetrator": "UA",
+        "Civilian Casualties": "NA",
+        "Russian Army Present": "NA",
+        "Witness": "Witnessed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.631778717041016,
+          48.70818165031451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 8,
+        "Date": "13/2/15",
+        "Event": "UAV Shot Down",
+        "Weapon": "Anti-Air ",
+        "Casualties": 0,
+        "Killed": 0,
+        "Wounded": 0,
+        "Perpetrator": "DPR",
+        "Civilian Casualties": "NA",
+        "Russian Army Present": "NA",
+        "Witness": "Investigated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.72911071777344,
+          47.178278901810174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 9,
+        "Date": "13/2/15",
+        "Event": "Convoy Spotted",
+        "Weapon": "Truck Convoy",
+        "Casualties": 0,
+        "Killed": 0,
+        "Wounded": 0,
+        "Perpetrator": "DPR",
+        "Civilian Casualties": "NA",
+        "Russian Army Present": "NA",
+        "Witness": "Witnessed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.02986145019531,
+          48.04503763958813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 10,
+        "Date": "13/2/15",
+        "Event": "Convoy Spotted",
+        "Weapon": "Truck Convoy",
+        "Casualties": 0,
+        "Killed": 0,
+        "Wounded": 0,
+        "Perpetrator": "DPR",
+        "Civilian Casualties": "NA",
+        "Russian Army Present": "NA",
+        "Witness": "Witnessed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.962226867675774,
+          48.0406764393366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 11,
+        "Date": "13/2/15",
+        "Event": "Convoy Spotted",
+        "Weapon": "BTR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.753929138183594,
+          48.82438408969174
+        ]
+      }
+    }
+  ]
+}
