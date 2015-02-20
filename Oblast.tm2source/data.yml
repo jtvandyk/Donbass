@@ -1,0 +1,51 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: jtvandyk.4f7aac1d
+  rev: s-d0a210c4
+  saveCenter: true
+attribution: ''
+center: 
+  - 36.6724
+  - 47.309
+  - 6
+description: ''
+Layer: 
+  - id: Oblast
+    Datasource: 
+      file: /Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/Untitled.shp
+      type: shape
+    description: Oblasts in the Donbass
+    fields: 
+      CC_1: String
+      ENGTYPE_1: String
+      HASC_1: String
+      ID_0: Number
+      ID_1: Number
+      ISO: String
+      NAME_0: String
+      NAME_1: String
+      NL_NAME_1: String
+      REMARKS_1: String
+      Shape_Area: Number
+      Shape_Leng: Number
+      TYPE_1: String
+      VALIDFR_1: String
+      VALIDTO_1: String
+      VARNAME_1: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: DonetskConflictZone_RandomConflictPoints
+    Datasource: 
+      file: /Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonetskConflictZone.RandomConflictPoints.shp
+      type: shape
+    description: ''
+    fields: 
+      ID: Number
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+maxzoom: 9
+minzoom: 0
+name: Oblast

@@ -1,0 +1,28 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: jtvandyk.505bb1c3
+  rev: s-26059888
+  saveCenter: true
+attribution: ''
+center: 
+  - 37.9935
+  - 48.0928
+  - 8
+description: ''
+Layer: 
+  - id: DonbaseConflictZone_Railways
+    Datasource: 
+      file: /Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonbaseConflictZone.Railways.shp
+      type: shape
+    description: ''
+    fields: 
+      name: String
+      osm_id: String
+      type: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+maxzoom: 12
+minzoom: 8
+name: ''

@@ -1,0 +1,173 @@
+_prefs: 
+  disabled: 
+    - Places
+    - Oblast
+    - Bridges
+    - Roads
+    - Railways
+    - Airport
+    - Forests
+  inspector: false
+  mapid: jtvandyk.bc36475f
+  rev: s-7f38672e
+  saveCenter: true
+attribution: ''
+center: 
+  - 38.2098
+  - 48.4114
+  - 11
+description: Project to highlight conflict in the Donbass
+Layer: 
+  - id: Forests
+    Datasource: 
+      file: /Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonbassConflictZone.Forests.shp
+      type: shape
+    description: OSM Forests
+    fields: 
+      name: String
+      osm_id: String
+      type: String
+    properties: 
+      "buffer-size": 2
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: Waterways
+    Datasource: 
+      file: /Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonbasConflictZone.Waterways.shp
+      type: shape
+    description: OSM Waterways
+    fields: 
+      name: String
+      osm_id: String
+      type: String
+      width: Number
+    properties: 
+      "buffer-size": 2
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: Lakes
+    Datasource: 
+      file: /Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonbassConflictZone.Lakes.shp
+      type: shape
+    description: OSM Lakes
+    fields: 
+      name: String
+      osm_id: String
+      type: String
+    properties: 
+      "buffer-size": 2
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: Airport
+    Datasource: 
+      file: /Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonbassConflictZone.DonetskAirportLines.shp
+      type: shape
+    description: ''
+    fields: 
+      aerialway: String
+      barrier: String
+      highway: String
+      man_made: String
+      name: String
+      osm_id: String
+      other_tags: String
+      waterway: String
+    properties: 
+      "buffer-size": 2
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: Railways
+    Datasource: 
+      file: /Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonbaseConflictZone.Railways.shp
+      type: shape
+    description: OSM Railways
+    fields: 
+      name: String
+      osm_id: String
+      type: String
+    properties: 
+      "buffer-size": 2
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: Roads
+    Datasource: 
+      file: /Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonbasConflictZone.Roads.shp
+      type: shape
+    description: Roadways from OSM
+    fields: 
+      bridge: Number
+      maxspeed: Number
+      name: String
+      oneway: Number
+      osm_id: String
+      ref: String
+      tunnel: Number
+      type: String
+    properties: 
+      "buffer-size": 2
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: Bridges
+    Datasource: 
+      file: /Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonbassConflictZone.Bridges.shp
+      type: shape
+    description: OSM Bridges
+    fields: 
+      bridge: Number
+      maxspeed: Number
+      name: String
+      oneway: Number
+      osm_id: String
+      ref: String
+      tunnel: Number
+      type: String
+    properties: 
+      "buffer-size": 2
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: Oblast
+    Datasource: 
+      file: /Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/Untitled.shp
+      type: shape
+    description: Oblast
+    fields: 
+      CC_1: String
+      ENGTYPE_1: String
+      HASC_1: String
+      ID_0: Number
+      ID_1: Number
+      ISO: String
+      NAME_0: String
+      NAME_1: String
+      NL_NAME_1: String
+      REMARKS_1: String
+      Shape_Area: Number
+      Shape_Leng: Number
+      TYPE_1: String
+      VALIDFR_1: String
+      VALIDTO_1: String
+      VARNAME_1: String
+    properties: 
+      "buffer-size": 2
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: MPLC
+    Datasource: 
+      file: /Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonbassConflictZone.MPLC.Clip.shp
+      type: shape
+    description: Line of Control from Minsk Protocol
+    fields: 
+      Class: String
+      pkuid: String
+      Title: String
+    properties: 
+      "buffer-size": 2
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: Places
+    Datasource: 
+      file: /Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonbassConflictZone.Places.shp
+      type: shape
+    description: Place names from OSM
+    fields: 
+      name: String
+      osm_id: String
+      population: Number
+      type: String
+    properties: 
+      "buffer-size": 2
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+maxzoom: 14
+minzoom: 9
+name: Donbass Conflict Zones

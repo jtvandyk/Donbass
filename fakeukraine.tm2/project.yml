@@ -1,0 +1,28 @@
+_prefs: 
+  mapid: jtvandyk.af8b74cb
+  saveCenter: true
+_properties: {}
+attribution: ''
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - 38.0717
+  - 47.9587
+  - 9
+description: 'The Conflict in Donbass with the Minsk Protocol Line of Control from September, 2014 aggreement. '
+format: "png8:m=h"
+interactivity_layer: ''
+layers: null
+maxzoom: 14
+minzoom: 9
+name: Conflict Zone in Donbass Ukraine
+source: "mapbox:///jtvandyk.bc36475f"
+styles: 
+  - style.mss
+  - water.mss
+  - roadways.mss
+  - Forests.mss
+template: ''

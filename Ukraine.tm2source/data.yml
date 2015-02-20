@@ -1,0 +1,87 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: jvandyk.711b871f
+  rev: s-f0991046
+  saveCenter: true
+attribution: ''
+center: 
+  - 31.46484375
+  - 48.574789910928864
+  - 4
+description: ''
+Layer: 
+  - id: UKR_adm0
+    Datasource: 
+      file: /Users/justinvandyk/Desktop/UKR_adm/UKR_adm0.shp
+      type: shape
+    description: Ukraine
+    fields: 
+      CONTAINS: String
+      EUmember: Number
+      FIPS: String
+      ID_0: Number
+      ISO: String
+      ISO2: String
+      ISON: Number
+      NAME_ARABI: String
+      NAME_CHINE: String
+      NAME_ENGLI: String
+      NAME_FAO: String
+      NAME_FRENC: String
+      NAME_ISO: String
+      NAME_LOCAL: String
+      NAME_NONLA: String
+      NAME_OBSOL: String
+      NAME_RUSSI: String
+      NAME_SPANI: String
+      NAME_VARIA: String
+      SOVEREIGN: String
+      VALIDFR: String
+      VALIDTO: String
+      WASPARTOF: String
+      WWW: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: UKR_adm1
+    Datasource: 
+      file: /Users/justinvandyk/Desktop/UKR_adm/UKR_adm1.shp
+      type: shape
+    description: Region
+    fields: 
+      ENGTYPE_1: String
+      ID_0: Number
+      ID_1: Number
+      ISO: String
+      NAME_0: String
+      NAME_1: String
+      NL_NAME_1: String
+      TYPE_1: String
+      VARNAME_1: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: UKR_adm2
+    Datasource: 
+      file: /Users/justinvandyk/Desktop/UKR_adm/UKR_adm2.shp
+      type: shape
+    description: Ukraine 2
+    fields: 
+      ENGTYPE_2: String
+      ID_0: Number
+      ID_1: Number
+      ID_2: Number
+      ISO: String
+      NAME_0: String
+      NAME_1: String
+      NAME_2: String
+      NL_NAME_2: String
+      TYPE_2: String
+      VARNAME_2: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+maxzoom: 11
+minzoom: 0
+name: Ukraine

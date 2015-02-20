@@ -1,0 +1,29 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: jtvandyk.3844fffd
+  rev: s-994d2301
+  saveCenter: true
+attribution: ''
+center: 
+  - 37.9715
+  - 48.0414
+  - 8
+description: ''
+Layer: 
+  - id: DonbasConflictZone_Waterways
+    Datasource: 
+      file: /Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonbasConflictZone.Waterways.shp
+      type: shape
+    description: ''
+    fields: 
+      name: String
+      osm_id: String
+      type: String
+      width: Number
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+maxzoom: 12
+minzoom: 8
+name: ''

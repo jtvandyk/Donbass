@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+
+<Parameters>
+  <Parameter name="center">31.46484375,48.574789910928864,4</Parameter>
+  <Parameter name="format">pbf</Parameter>
+  <Parameter name="json"><![CDATA[{"vector_layers":[{"id":"UKR_adm0","description":"Ukraine","fields":{"ID_0":"Number","ISO":"String","NAME_ENGLI":"String","NAME_ISO":"String","NAME_FAO":"String","NAME_LOCAL":"String","NAME_OBSOL":"String","NAME_VARIA":"String","NAME_NONLA":"String","NAME_FRENC":"String","NAME_SPANI":"String","NAME_RUSSI":"String","NAME_ARABI":"String","NAME_CHINE":"String","WASPARTOF":"String","CONTAINS":"String","SOVEREIGN":"String","ISO2":"String","WWW":"String","FIPS":"String","ISON":"Number","VALIDFR":"String","VALIDTO":"String","EUmember":"Number"}},{"id":"UKR_adm1","description":"Region","fields":{"ID_0":"Number","ISO":"String","NAME_0":"String","ID_1":"Number","NAME_1":"String","NL_NAME_1":"String","VARNAME_1":"String","TYPE_1":"String","ENGTYPE_1":"String"}},{"id":"UKR_adm2","description":"Ukraine 2","fields":{"ID_0":"Number","ISO":"String","NAME_0":"String","ID_1":"Number","NAME_1":"String","ID_2":"Number","NAME_2":"String","NL_NAME_2":"String","VARNAME_2":"String","TYPE_2":"String","ENGTYPE_2":"String"}}]}]]></Parameter>
+  <Parameter name="maxzoom">11</Parameter>
+  <Parameter name="minzoom">0</Parameter>
+  <Parameter name="name"><![CDATA[Ukraine]]></Parameter>
+</Parameters>
+
+
+<Layer name="UKR_adm0"
+  buffer-size="8"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/justinvandyk/Desktop/UKR_adm/UKR_adm0.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="UKR_adm1"
+  buffer-size="8"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/justinvandyk/Desktop/UKR_adm/UKR_adm1.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="UKR_adm2"
+  buffer-size="8"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/justinvandyk/Desktop/UKR_adm/UKR_adm2.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>

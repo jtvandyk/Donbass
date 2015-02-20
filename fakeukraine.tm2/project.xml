@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" background-color="#111111">
+
+<Parameters>
+  <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
+  <Parameter name="center">38.0717,47.9587,9</Parameter>
+  <Parameter name="description"><![CDATA[The Conflict in Donbass with the Minsk Protocol Line of Control from September, 2014 aggreement. ]]></Parameter>
+  <Parameter name="format">png8:m=h</Parameter>
+  <Parameter name="maxzoom">14</Parameter>
+  <Parameter name="minzoom">9</Parameter>
+  <Parameter name="name"><![CDATA[Conflict Zone in Donbass Ukraine]]></Parameter>
+  <Parameter name="source"><![CDATA[mapbox:///jtvandyk.bc36475f]]></Parameter>
+</Parameters>
+
+
+<Style name="Forests" filter-mode="first" comp-op="screen">
+  <Rule>
+    <PolygonSymbolizer fill="#008000" fill-opacity="0.5" />
+  </Rule>
+</Style>
+<Layer name="Forests"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Forests</StyleName>  </Layer>
+
+<Style name="Waterways" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <Filter>([type] = 'stream')</Filter>
+    <LineSymbolizer stroke-width="1.5" stroke="rgba(68, 153, 187, 0.5)" stroke-linecap="round" stroke-gamma="0.55" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([type] = 'stream')</Filter>
+    <LineSymbolizer stroke="rgba(68, 153, 187, 0.5)" stroke-width="1" stroke-linecap="round" stroke-gamma="0.55" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <Filter>([type] = 'stream_intermittent')</Filter>
+    <LineSymbolizer stroke-width="1.5" stroke="rgba(68, 153, 187, 0.5)" stroke-linecap="round" stroke-gamma="0.55" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([type] = 'stream_intermittent')</Filter>
+    <LineSymbolizer stroke="rgba(68, 153, 187, 0.5)" stroke-width="1" stroke-linecap="round" stroke-gamma="0.55" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <Filter>([type] = 'river')</Filter>
+    <LineSymbolizer stroke-width="3" stroke="rgba(68, 153, 187, 0.5)" stroke-opacity="0.75" stroke-linecap="round" stroke-gamma="0.5" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([type] = 'river')</Filter>
+    <LineSymbolizer stroke-width="2" stroke="rgba(68, 153, 187, 0.5)" stroke-opacity="0.75" stroke-linecap="round" stroke-gamma="0.5" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([type] = 'river')</Filter>
+    <LineSymbolizer stroke="rgba(68, 153, 187, 0.5)" stroke-opacity="0.75" stroke-width="0.5" stroke-linecap="round" stroke-gamma="0.5" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <Filter>([type] = 'canal')</Filter>
+    <LineSymbolizer stroke-width="3" stroke="rgba(68, 153, 187, 0.5)" stroke-opacity="0.75" stroke-linecap="round" stroke-gamma="0.5" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([type] = 'canal')</Filter>
+    <LineSymbolizer stroke-width="2" stroke="rgba(68, 153, 187, 0.5)" stroke-opacity="0.75" stroke-linecap="round" stroke-gamma="0.5" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([type] = 'canal')</Filter>
+    <LineSymbolizer stroke="rgba(68, 153, 187, 0.5)" stroke-opacity="0.75" stroke-width="0.5" stroke-linecap="round" stroke-gamma="0.5" />
+  </Rule>
+</Style>
+<Layer name="Waterways"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Waterways</StyleName>  </Layer>
+
+<Style name="Lakes" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <PolygonSymbolizer gamma="0.75" fill-opacity="0.75" fill="rgba(68, 153, 187, 0.5)" />
+    <LineSymbolizer stroke-opacity="0.75" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <PolygonSymbolizer fill="rgba(68, 153, 187, 0.5)" gamma="0.5" fill-opacity="0.75" />
+    <LineSymbolizer stroke-opacity="0.75" />
+  </Rule>
+</Style>
+<Layer name="Lakes"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Lakes</StyleName>  </Layer>
+
+<Layer name="Airport"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="Railways"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Style name="Roads" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <Filter>([type] = 'road')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="0.75" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([type] = 'road')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="0.5" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([type] = 'road')</Filter>
+    <LineSymbolizer stroke="rgba(0, 0, 0, 0)" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([type] = 'road')</Filter>
+    <LineSymbolizer stroke="rgba(0, 0, 0, 0)" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'road')</Filter>
+    <LineSymbolizer stroke="rgba(0, 0, 0, 0)" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <Filter>([type] = 'residential')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="0.75" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([type] = 'residential')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="0.5" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([type] = 'residential')</Filter>
+    <LineSymbolizer stroke="rgba(0, 0, 0, 0)" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([type] = 'residential')</Filter>
+    <LineSymbolizer stroke="rgba(0, 0, 0, 0)" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'residential')</Filter>
+    <LineSymbolizer stroke="rgba(0, 0, 0, 0)" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <Filter>([type] = 'seondary_link')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1.25" stroke-opacity="0.75" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([type] = 'seondary_link')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1" stroke-opacity="0.75" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([type] = 'seondary_link')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1" stroke-opacity="0.75" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([type] = 'seondary_link')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="0.75" stroke-opacity="0.75" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'seondary_link')</Filter>
+    <LineSymbolizer stroke="rgba(0, 0, 0, 0)" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <Filter>([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1.25" stroke-opacity="0.75" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1" stroke-opacity="0.75" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1" stroke-opacity="0.75" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="0.75" stroke-opacity="0.75" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke="rgba(0, 0, 0, 0)" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <Filter>([type] = 'trunk_link')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="2" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([type] = 'trunk_link')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1.75" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([type] = 'trunk_link')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1.5" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([type] = 'trunk_link')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1.25" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'trunk_link')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <Filter>([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="2" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1.75" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1.5" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1.25" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <Filter>([type] = 'primary_link')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="2" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([type] = 'primary_link')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1.75" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([type] = 'primary_link')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1.5" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([type] = 'primary_link')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1.25" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'primary_link')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <Filter>([type] = 'primary')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="2" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([type] = 'primary')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1.75" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([type] = 'primary')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1.5" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([type] = 'primary')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1.25" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'primary')</Filter>
+    <LineSymbolizer stroke="#484848" stroke-width="1" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([type] != 'primary_link')</Filter>
+    <LineSymbolizer stroke="rgba(0, 0, 0, 0)" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([type] != 'primary_link')</Filter>
+    <LineSymbolizer stroke="rgba(0, 0, 0, 0)" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([type] != 'primary_link')</Filter>
+    <LineSymbolizer stroke="rgba(0, 0, 0, 0)" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] != 'primary_link')</Filter>
+    <LineSymbolizer stroke="rgba(0, 0, 0, 0)" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([type] != 'primary') and ([type] != 'primary_link')</Filter>
+    <LineSymbolizer stroke="rgba(0, 0, 0, 0)" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([type] != 'primary') and ([type] != 'primary_link')</Filter>
+    <LineSymbolizer stroke="rgba(0, 0, 0, 0)" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([type] != 'primary') and ([type] != 'primary_link')</Filter>
+    <LineSymbolizer stroke="rgba(0, 0, 0, 0)" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] != 'primary') and ([type] != 'primary_link')</Filter>
+    <LineSymbolizer stroke="rgba(0, 0, 0, 0)" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([type] != 'primary')</Filter>
+    <LineSymbolizer stroke="rgba(0, 0, 0, 0)" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([type] != 'primary')</Filter>
+    <LineSymbolizer stroke="rgba(0, 0, 0, 0)" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([type] != 'primary')</Filter>
+    <LineSymbolizer stroke="rgba(0, 0, 0, 0)" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] != 'primary')</Filter>
+    <LineSymbolizer stroke="rgba(0, 0, 0, 0)" />
+  </Rule>
+</Style>
+<Layer name="Roads"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Roads</StyleName>  </Layer>
+
+<Style name="Bridges" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#ffa500" stroke-width="2" />
+  </Rule>
+</Style>
+<Layer name="Bridges"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Bridges</StyleName>  </Layer>
+
+<Style name="Oblast" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="2" stroke="rgba(204, 68, 68, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Oblast"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Oblast</StyleName>  </Layer>
+
+<Style name="MPLC" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="#ff530d" />
+    <PolygonSymbolizer fill="#ff530d" fill-opacity="0.25" />
+  </Rule>
+</Style>
+<Layer name="MPLC"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>MPLC</StyleName>  </Layer>
+
+<Layer name="Places"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+</Map>

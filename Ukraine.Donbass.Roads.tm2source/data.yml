@@ -1,0 +1,33 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: jtvandyk.f9f39189
+  rev: s-6b9b2e4b
+  saveCenter: true
+attribution: ''
+center: 
+  - 36.3608
+  - 47.2289
+  - 12
+description: ''
+Layer: 
+  - id: DonbasConflictZone_Roads
+    Datasource: 
+      file: /Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonbasConflictZone.Roads.shp
+      type: shape
+    description: ''
+    fields: 
+      bridge: Number
+      maxspeed: Number
+      name: String
+      oneway: Number
+      osm_id: String
+      ref: String
+      tunnel: Number
+      type: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+maxzoom: 12
+minzoom: 8
+name: donbass.roads

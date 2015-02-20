@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+
+<Parameters>
+  <Parameter name="center">38.2098,48.4114,11</Parameter>
+  <Parameter name="description"><![CDATA[Project to highlight conflict in the Donbass]]></Parameter>
+  <Parameter name="format">pbf</Parameter>
+  <Parameter name="json"><![CDATA[{"vector_layers":[{"id":"Forests","description":"OSM Forests","fields":{"osm_id":"String","name":"String","type":"String"}},{"id":"Waterways","description":"OSM Waterways","fields":{"osm_id":"String","name":"String","type":"String","width":"Number"}},{"id":"Lakes","description":"OSM Lakes","fields":{"osm_id":"String","name":"String","type":"String"}},{"id":"Airport","description":"","fields":{"osm_id":"String","name":"String","highway":"String","waterway":"String","aerialway":"String","barrier":"String","man_made":"String","other_tags":"String"}},{"id":"Railways","description":"OSM Railways","fields":{"osm_id":"String","name":"String","type":"String"}},{"id":"Roads","description":"Roadways from OSM","fields":{"osm_id":"String","name":"String","ref":"String","type":"String","oneway":"Number","bridge":"Number","tunnel":"Number","maxspeed":"Number"}},{"id":"Bridges","description":"OSM Bridges","fields":{"osm_id":"String","name":"String","ref":"String","type":"String","oneway":"Number","bridge":"Number","tunnel":"Number","maxspeed":"Number"}},{"id":"Oblast","description":"Oblast","fields":{"ID_0":"Number","ISO":"String","NAME_0":"String","ID_1":"Number","NAME_1":"String","VARNAME_1":"String","NL_NAME_1":"String","HASC_1":"String","CC_1":"String","TYPE_1":"String","ENGTYPE_1":"String","VALIDFR_1":"String","VALIDTO_1":"String","REMARKS_1":"String","Shape_Leng":"Number","Shape_Area":"Number"}},{"id":"MPLC","description":"Line of Control from Minsk Protocol","fields":{"pkuid":"String","Title":"String","Class":"String"}},{"id":"Places","description":"Place names from OSM","fields":{"osm_id":"String","name":"String","type":"String","population":"Number"}}]}]]></Parameter>
+  <Parameter name="maxzoom">14</Parameter>
+  <Parameter name="minzoom">9</Parameter>
+  <Parameter name="name"><![CDATA[Donbass Conflict Zones]]></Parameter>
+</Parameters>
+
+
+<Layer name="Forests"
+  buffer-size="2"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonbassConflictZone.Forests.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Waterways"
+  buffer-size="2"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonbasConflictZone.Waterways.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Lakes"
+  buffer-size="2"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonbassConflictZone.Lakes.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Airport"
+  buffer-size="2"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonbassConflictZone.DonetskAirportLines.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Railways"
+  buffer-size="2"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonbaseConflictZone.Railways.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Roads"
+  buffer-size="2"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonbasConflictZone.Roads.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Bridges"
+  buffer-size="2"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonbassConflictZone.Bridges.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Oblast"
+  buffer-size="2"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/Untitled.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="MPLC"
+  buffer-size="2"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonbassConflictZone.MPLC.Clip.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Places"
+  buffer-size="2"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonbassConflictZone.Places.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>

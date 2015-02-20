@@ -1,0 +1,25 @@
+_prefs: 
+  mapid: jtvandyk.547c7746
+  saveCenter: true
+_properties: {}
+attribution: ''
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - 36.145
+  - 46.6494
+  - 6
+description: ''
+format: "png8:m=h"
+interactivity_layer: ''
+layers: null
+maxzoom: 9
+minzoom: 0
+name: Oblast.Test
+source: "mapbox:///jtvandyk.4f7aac1d"
+styles: 
+  - style.mss
+template: ''

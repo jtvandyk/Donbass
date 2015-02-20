@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+
+<Parameters>
+  <Parameter name="center">36.6724,47.309,6</Parameter>
+  <Parameter name="format">pbf</Parameter>
+  <Parameter name="json"><![CDATA[{"vector_layers":[{"id":"Oblast","description":"Oblasts in the Donbass","fields":{"ID_0":"Number","ISO":"String","NAME_0":"String","ID_1":"Number","NAME_1":"String","VARNAME_1":"String","NL_NAME_1":"String","HASC_1":"String","CC_1":"String","TYPE_1":"String","ENGTYPE_1":"String","VALIDFR_1":"String","VALIDTO_1":"String","REMARKS_1":"String","Shape_Leng":"Number","Shape_Area":"Number"}},{"id":"DonetskConflictZone_RandomConflictPoints","description":"","fields":{"ID":"Number"}}]}]]></Parameter>
+  <Parameter name="maxzoom">9</Parameter>
+  <Parameter name="minzoom">0</Parameter>
+  <Parameter name="name"><![CDATA[Oblast]]></Parameter>
+</Parameters>
+
+
+<Layer name="Oblast"
+  buffer-size="8"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/Untitled.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="DonetskConflictZone_RandomConflictPoints"
+  buffer-size="8"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/justinvandyk/Documents/Ukraine/Ukraine Project SHP/DonetskConflictZone.RandomConflictPoints.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>
